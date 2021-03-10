@@ -9,11 +9,6 @@ import { faTwitter, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-i
 import { faFutbol, faMars, faPodcast, faFlag } from '@fortawesome/free-solid-svg-icons';
 
 
-
-
-
-
-
 const Details = () => {
     const { idLeague } = useParams();
     const [leagues, setLeagues] = useState([])
@@ -23,7 +18,7 @@ const Details = () => {
             .then(res => res.json())
             .then(data => setLeagues(data.leagues[0]))
 
-    }, []);
+    }, [idLeague]);
     console.log(leagues)
     const { dateFirstEvent, strCountry, strGender, strLeagueAlternate, strBadge, strDescriptionEN, strDescriptionFR, strFanart2, strYoutube } = leagues;
     const image = strGender === 'Male' ? imgMale : imgFemale;
