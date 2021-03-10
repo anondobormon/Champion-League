@@ -1,0 +1,33 @@
+.team-container{
+    border: 1px solid black;
+    width: 90%;
+    overflow: hidden;
+    text-align: center;
+    background: #ecf0f1;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.team-container img{
+    width: 40%;
+}
+.team-container button{
+    /* width: 100px; */
+    border: none;
+    padding: 10px 40px;
+    background-color: tomato;
+    border-radius: 5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+}
+.button{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.team-container button:hover{
+    letter-spacing: 2px;
+}
+

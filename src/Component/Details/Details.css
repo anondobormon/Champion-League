@@ -1,0 +1,140 @@
+.main-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header-image{
+    background: url(/src/Image/background\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    /* border: 1px solid black; */
+    text-align: center;
+
+
+}
+.banner-logo{
+    width: 25%;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding-top: 60px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.banner-logo img{
+    width: 50%;
+}
+.banner-logo h1{
+    color:white;
+    font-size: 30px;
+}
+
+
+.icon{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.icon-1{
+    color: rgb(18, 165, 214);
+
+}
+.icon-2{
+    color: red;
+
+}
+.icon-3{
+    color: lightblue;
+
+}
+.ic{
+    margin: 3px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 30px;
+}
+.team-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 2%;
+    border-radius: 15px;
+    background: linear-gradient(to right, #2c2c2c 50%, #ffb633 50%);
+}
+
+#league-name{
+    font-size: 30px;
+    /* line-height: .1; */
+}
+.info{
+    text-align: left;
+    color: wheat;
+    box-sizing: border-box;
+}
+.team-image{
+    text-align: right;
+}
+.team-image img{
+    width: 64%;
+}
+.paragraph{
+    text-align: left;
+}
+
+
+
+
+
+
+
+/* responsive area */
+
+@media(max-width: 700px){
+    .team-info{
+        display: block;
+        /* background: linear-gradient(to top,#ffb633 60%, #2c2c2c 40%); */
+        background: #2c2c2c;
+        text-align: center;
+        overflow: hidden;
+
+
+    }
+    .team-image{
+        text-align: center;
+    }
+}
