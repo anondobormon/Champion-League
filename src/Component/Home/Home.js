@@ -9,7 +9,6 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setTeams(data.leagues))
     }, [])
-    // console.log(teams);
     const leagues = teams.slice(0, 21);
     // console.log(leagues);
     return (
