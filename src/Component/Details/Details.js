@@ -20,7 +20,7 @@ const Details = () => {
 
     }, [idLeague]);
     console.log(leagues)
-    const { dateFirstEvent, strCountry, strGender, strLeagueAlternate, strBadge, strDescriptionEN, strDescriptionFR, strFanart2, strYoutube } = leagues;
+    const { dateFirstEvent, strCountry, strGender, strLeagueAlternate, strBadge, strDescriptionEN, strDescriptionFR} = leagues;
     const image = strGender === 'Male' ? imgMale : imgFemale;
 
     return (
@@ -76,23 +76,4 @@ const Details = () => {
 
 export default Details;
 
-
-{/* <i class="far fa-futbol"></i>faFutbol
-<i class="fas fa-mars"></i>faMars
-<i class="fas fa-podcast"></i>faPodcast
-<i class="fab fa-font-awesome-flag"></i>faFontAwesomeFlag
-<i class="fab fa-twitter-square"></i>faTwitterSquare
-<i class="fab fa-youtube-square"></i>faYoutubeSquare
-<i class="fab fa-facebook-square"></i>faFacebookSquare 
-<i class="fas fa-flag"></i> faFlag
-<i class="fas fa-arrow-right"></i> faArrowRight
-<i class="fab fa-facebook"></i>faFacebook
-<i class="fab fa-twitter"></i>faTwitter
-<i class="fab fa-facebook-f"></i>
-<i class="fab fa-facebook"></i>
-
-
-
-
-*/}
 

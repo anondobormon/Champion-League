@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Details from '../Details/Details';
 import './Teams.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 
 const Teams = (props) => {
-    const { strTeamBadge, strLeague, idLeague } = props.team;
+    const {strLeague, idLeague } = props.team;
     const [league, setLeague] = useState([])
     useEffect(() => {
         const url = `https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${idLeague}`

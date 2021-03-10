@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './Component/Home/Home';
 import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Details from './Component/Details/Details';
 import NotFound from './Component/NotFound/NotFound';
