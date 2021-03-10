@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <div>
             <div  className='teams-background'>
-                <h2>Football 2021</h2>
+                <h2>Champion league 2021</h2>
             </div>
             <div className='teams-container'>
                 {

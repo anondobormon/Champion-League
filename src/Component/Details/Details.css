@@ -75,19 +75,21 @@
 }
 
 #league-name{
-    font-size: 30px;
+    font-size: 25px;
     /* line-height: .1; */
 }
 .info{
     text-align: left;
+    width: 50%;
     color: wheat;
+    /* border: 1px solid black; */
     box-sizing: border-box;
 }
 .team-image{
     text-align: right;
 }
 .team-image img{
-    width: 60%;
+    width: 66%;
 }
 .paragraph{
     text-align: left;
