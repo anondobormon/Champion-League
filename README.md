@@ -10,5 +10,7 @@ This is a football League related website, here showing 21 leagues information. 
 6. This is responsive website using pure css.
 7. Use data distructuring.
 
+# live link: https://sharp-leakey-5bb830.netlify.app/
+
 
 
