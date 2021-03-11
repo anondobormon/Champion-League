@@ -6,7 +6,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 
 const Teams = (props) => {
-    const {strLeague, idLeague } = props.team;
+    const {strLeagueAlternate, idLeague } = props.team;
     const [league, setLeague] = useState([])
     useEffect(() => {
         const url = `https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${idLeague}`
@@ -20,7 +20,7 @@ const Teams = (props) => {
             
             <div className='team-container'>
                 <img src={strBadge} alt="" />
-                <h3>{strLeague}</h3>
+                <h3>{strLeagueAlternate}</h3>
                 <button><Link to={'/teams/' + idLeague} className='button'>Explore  <FontAwesomeIcon icon={faArrowRight} /></Link></button>
 
             </div>
